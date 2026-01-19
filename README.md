@@ -45,6 +45,13 @@ an implementation using Arm's *platform-agnostic* CMSIS functions to quickly
 examine the functionality of the benchmark on an OS that supports `cmake`. 
 Ideally the target platform would use its own DSP and neural-net acceleration APIs.
 
+The following "ports" directories are available:
+
+| Directory | Descriptions |
+|---|---|
+| ports/barebones | Suitable For Linux and macOS environments. See [steps](#linux-and-macos) described below  |
+| ports/arm | For Arm Cortex-M processor systems using the [CMSIS-Toolbox](https://github.com/Open-CMSIS-Pack/cmsis-toolbox).<br> See this [README](platform/cmsis/README.md) for details. |
+
 ## Linux and macOS
 
 To build the self-hosted example, from the root directory type":
