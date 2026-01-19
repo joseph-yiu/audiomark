@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10.2)
 project(audiomark
-	DESCRIPTION "Firmware for the AudoMark Self-Hosted Benchmark"
+	DESCRIPTION "Firmware for the AudioMark Self-Hosted Benchmark"
 	LANGUAGES C
 	VERSION 1.0.0)
 
